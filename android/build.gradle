@@ -11,10 +11,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven {
-            // All of Detox' artifacts are provided via the npm module
-            url "$rootDir/../node_modules/detox/Detox-android"
-        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle:3.4.0")
@@ -32,6 +28,10 @@ allprojects {
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url "$rootDir/../node_modules/react-native/android"
+        }
+        maven {
+            // All of Detox' artifacts are provided via the npm module
+            url "$rootDir/../node_modules/detox/Detox-android"
         }
     }
 }
