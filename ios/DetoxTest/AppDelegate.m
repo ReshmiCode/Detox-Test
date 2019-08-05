@@ -10,6 +10,10 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+#import <Firebase.h>
+#import "RNSplashScreen.h"
 
 @implementation AppDelegate
 
