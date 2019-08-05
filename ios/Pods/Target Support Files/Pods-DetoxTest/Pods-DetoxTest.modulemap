@@ -1,0 +1,6 @@
+framework module Pods_DetoxTest {
+  umbrella header "Pods-DetoxTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
