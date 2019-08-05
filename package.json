@@ -27,7 +27,7 @@
     "configurations": {
       "ios": {
         "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DetoxTest.app",
-        "build": "xcodebuild -project ios/DetoxTest.xcodeproj -scheme DetoxTest -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "build": "xcodebuild -workspace ios/DetoxTest.xcworkspace -scheme DetoxTest -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
         "name": "iPhone X"
       },
