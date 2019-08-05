@@ -1915,10 +1915,10 @@ detect-newline@^2.1.0:
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
   integrity sha1-9B8cEL5LAOh7XxPaaAdZ8sW/0+I=
 
-detox@^12.11.2:
-  version "12.11.2"
-  resolved "https://registry.yarnpkg.com/detox/-/detox-12.11.2.tgz#ec4fe2076589895aeaf1ba073ba605e3d43a274a"
-  integrity sha512-WmKth9B0/fsJPrM8sTZgMtN/zrFIKgSGD4hVcXVCTrtTQqHBQB2SqhLDuQrPpkyEXVGTl3O9viCJG7d651ZGIg==
+detox@^13.3.3:
+  version "13.3.3"
+  resolved "https://registry.yarnpkg.com/detox/-/detox-13.3.3.tgz#caef4e14f9a5021207f88f4960d092afd9703a1e"
+  integrity sha512-Rphzj8sMcx0ScRCVuRFA9SJcj5nn32SJkkG4PvpsrH862iiX4cSCBBvuy0MfOq49IF5kGkEwoNTuYxXZq6Jvqw==
   dependencies:
     "@babel/core" "^7.4.5"
     bunyan "^1.8.12"
