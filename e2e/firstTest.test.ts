@@ -1,6 +1,9 @@
 import { expect } from 'detox';
 
+jest.retryTimes(2);
+
 it('should have welcome screen', async () => {
-  await expect(element(by.text('Hello!'))).toExist();
+  console.log('tried');
+  await expect(element(by.text('Helloz!'))).toExist();
   await element(by.text('Hello!')).swipe('up', 'fast', 0.89);
 });

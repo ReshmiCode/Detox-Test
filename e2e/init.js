@@ -13,10 +13,10 @@ jasmine.getEnv().addReporter(specReporter);
 
 beforeAll(async () => {
   await detox.init(config);
+  await device.reloadReactNative();
 });
 
 beforeEach(async () => {
-  await device.reloadReactNative();
   await adapter.beforeEach();
 });
 
