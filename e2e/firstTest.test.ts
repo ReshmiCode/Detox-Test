@@ -1,9 +1,7 @@
-import { expect } from 'detox';
-
 jest.retryTimes(2);
 
-it('should have welcome screen', async () => {
-  console.log('tried');
-  await expect(element(by.text('Helloz!'))).toExist();
-  await element(by.text('Hello!')).swipe('up', 'fast', 0.89);
+test('should have welcome screen', async () => {
+  console.warn('tried');
+  await element(by.text('Helloz!')).tap();
+  //await element(by.text('Hello!')).swipe('up', 'fast', 0.89);
 });
