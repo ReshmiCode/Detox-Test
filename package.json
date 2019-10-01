@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@types/jest": "^24.0.15",
+    "detox-cli": "^10.0.7",
     "react": "16.8.3",
     "react-native": "0.59.9"
   },
@@ -15,7 +16,7 @@
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
     "babel-jest": "^24.8.0",
-    "detox": "^14.0.0",
+    "detox": "^14.3.4",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.54.1",
     "react-native-testing-library": "^1.11.1",
